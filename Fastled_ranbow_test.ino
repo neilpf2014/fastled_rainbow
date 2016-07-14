@@ -9,7 +9,7 @@ CRGB leds[27];
 uint32_t pastMills = 0;
 void setup() 
 { 
-	FastLED.addLeds<NEOPIXEL, 6>(leds, 60); 
+	FastLED.addLeds<NEOPIXEL, 6>(leds, 27); 
 
 }
 void loop() 
